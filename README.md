@@ -13,13 +13,15 @@ tailwind
 daisy ui
 pinia
 -> cloudflare pages
-
+```
+```
 server:
 hono
 drizzle
 sqlite (cloudflare d1)
 -> cloudflare workers
-
+```
+```
 both:
 typescript
 zod
@@ -47,5 +49,3 @@ To change the name of the server deployment on cloudflare workers:
 
 To get the cloudflare workers env variables:
 https://orm.drizzle.team/docs/guides/d1-http-with-drizzle-kit
-
-This project was created using `bun init` in bun v1.2.15. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
